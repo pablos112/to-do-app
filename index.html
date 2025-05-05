@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <script type="module" src="./js/app.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <p class="header__text">TO DO LIST 📝</p>
+    </header>
+    <main class="main">
+        <div class="modal__motiovanion hidden">
+            <div class="modal-block">
+                <p class="modal__header">MOTIVATION TEXT</p>
+                <p class="modal__text">Loading...</p>
+                <button class="modal__close">let's go!</button>
+            </div>
+        </div>
+        <div class="main__block">
+            <div class="input__block">
+                <input class="input" type="text" maxlength="30">
+                <button class="button-add">ADD</button>
+            </div>
+            <div class="lists__blocks">
+                <div class="list__block">
+                    <div title="DONE"  class="done__img">
+                        <img class="done-img" src="/assets/icons/done.png" alt="done">
+                    </div>
+                    <div class="list__text">
+                        <p class="list-text">Do to do list ddddd</p>
+                    </div>
+                    <div title="MOTIVATION TEXT" class="motivation__img">
+                        <img class="motivation-img" src="assets/icons/motivation.png" alt="">
+                    </div>
+                    <div title="DELETE" class="trash__img">
+                        <img class="trash-img" src="assets/icons/trash.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
