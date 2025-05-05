@@ -1,5 +1,5 @@
 export async function getMotivation(taskText) {
-//   const apiKey = "96b28da02cmshf92b84279def727p1b6effjsn0504c6bc9215"; // 🔒 вставь свой API-ключ
+//   const apiKey = "API"; // 🔒 вставь свой API-ключ
 
   try {
     const response = await fetch("https://copilot5.p.rapidapi.com/copilot", {
