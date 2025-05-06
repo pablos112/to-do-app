@@ -266,6 +266,7 @@ body {
   justify-content: flex-start;
   color: #000;
   transition: all 0.3s ease-in-out;
+  padding: 10px 15px;
 }
 .motivation__img,
 .trash__img {
