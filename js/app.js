@@ -30,11 +30,8 @@ function addNewList() {
       `
                <div class="list__block">
                     <div title="DONE"  class="done__img">
-<<<<<<< HEAD
                         <img class="done-img hidden" src="assets/icons/done.png" alt="">
-=======
                         <img class="done-img hidden" src="/assets/icons/done.png" alt="">
->>>>>>> 2ae2244e5e644d6987822cee1925c26225f28244
                     </div>
                     <div class="list__text">
                         <p class="list-text">${inputText.value}</p>
