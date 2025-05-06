@@ -1,5 +1,5 @@
 export async function getMotivation(taskText) {
-  // const apiKey = "API"; // 🔒 вставь свой API-ключ
+  // const apiKey = "API"; // 🔒 API-key
 
   try {
     const response = await fetch("https://copilot5.p.rapidapi.com/copilot", {
@@ -15,13 +15,13 @@ export async function getMotivation(taskText) {
         markdown: true,
       }),
     });
-    if (!response.ok) throw new Error("Ошибка " + response.status);
+    if (!response.ok) throw new Error("Error " + response.status);
     const result = await response.json();
     const { message } = result.data;
     console.log(message);
     return message;
   } catch (error) {
-    console.error("Ошибка получения мотивации:", error);
+    console.error("Error receiving motivation:", error);
     return `Good luck with ${taskText}`;
   }
 }
