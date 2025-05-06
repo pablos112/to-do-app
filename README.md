@@ -37,7 +37,6 @@ You can enable this feature by adding your own OpenAI API key to `motivation.js`
 - JavaScript (ES6+)  
 - `localStorage` for data persistence  
 - GitHub Pages for deployment
-
 ---
 
 ## 🧪 Run Locally
@@ -45,3 +44,4 @@ You can enable this feature by adding your own OpenAI API key to `motivation.js`
 1. Clone the repository:
    ```bash
    git clone https://github.com/pablos112/to-do-app.git
+
