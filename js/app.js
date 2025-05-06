@@ -30,7 +30,7 @@ function addNewList() {
       `
                <div class="list__block">
                     <div title="DONE"  class="done__img">
-                        <img class="done-img hidden" src="/assets/icons/done.png" alt="done">
+                        <img class="done-img hidden" src="assets/icons/done.png" alt="">
                     </div>
                     <div class="list__text">
                         <p class="list-text">${inputText.value}</p>
